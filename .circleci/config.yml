@@ -48,5 +48,5 @@ jobs:
             jupyter nbconvert 01.ipynb
 
       - store_artifacts:
-          path: HTML_file
-          destination: HTML_file
+          path: 01.html
+          destination: 01.html
