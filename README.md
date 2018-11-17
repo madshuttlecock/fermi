@@ -4,4 +4,4 @@
 
 https://mybinder.org/v2/gh/madshuttlecock/webinar_course.git/master 
 
-task 5 https://www.kaggle.com/madshutt/titanic-data?scriptVersionId=7348471
+task 5 https://kaggle.com/madshutt/titanic?scriptVersionId=7478221
