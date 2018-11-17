@@ -47,7 +47,11 @@ jobs:
             . venv/bin/activate
             jupyter nbconvert 01.ipynb
 
-      - run: bash ./kaggle_script.sh
+      - run: 
+         name: kaggle-script
+          command: |
+            . venv/bin/activate
+            bash ./kaggle_script.sh
 
       - store_artifacts:
           path: results
