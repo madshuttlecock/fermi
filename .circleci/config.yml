@@ -49,7 +49,7 @@ jobs:
 
       - run: 
          name: kaggle-script
-          command: |
+         command: |
             . venv/bin/activate
             bash ./kaggle_script.sh
 
