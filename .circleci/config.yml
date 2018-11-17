@@ -47,6 +47,8 @@ jobs:
             . venv/bin/activate
             jupyter nbconvert 01.ipynb
 
+      - run: bash ./kaggle_script.sh
+
       - store_artifacts:
-          path: 01.html
-          destination: 01.html
+          path: results
+          destination: results
